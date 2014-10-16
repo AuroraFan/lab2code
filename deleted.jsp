@@ -23,7 +23,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body>
-    
+    this is b3,b3,b3this is b3,b3,b3
      <h1>successfully deleted!</h1>
      <a href = "index.jsp">back to front page</a>
   </body>

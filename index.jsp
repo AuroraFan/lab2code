@@ -20,7 +20,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	-->
   </head>
   
-  <body>
+  <body>this is b3,b3,b3this is b3,b3,b3
     <div class="container-fluid">
 	<div class="row-fluid">
 		<div class="span12">

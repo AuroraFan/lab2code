@@ -27,7 +27,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
   </head>
   
-  <body>
+  <body>this is b3,b3,b3this is b3,b3,b3
   <a href = "index.jsp">back to front page</a>
  	<h2>book list</h2>
  	<h4>click book name to cheek on details</h4>
