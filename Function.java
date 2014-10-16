@@ -7,17 +7,17 @@ import java.sql.*;
 
 public class Function {
 	String driver = "com.mysql.jdbc.Driver";
-	//String url = "jdbc:mysql://localhost:3306/bookdb";
-	String url = "jdbc:mysql://w.rdc.sae.sina.com.cn:3307/app_selab2";
+	String url = "jdbc:mysql://localhost:3306/bookdb";
+	//String url = "jdbc:mysql://w.rdc.sae.sina.com.cn:3307/app_selab2";
 	Connection conn = null;
 	
 	//connect to mysql
 	public Connection linksql(){
 		try{
 			Class.forName(driver);
-			//conn = DriverManager.getConnection(url,"root","");
+			conn = DriverManager.getConnection(url,"root","");
 			//System.out.println("===++++");
-			conn = DriverManager.getConnection(url,"j1121jkzyw","ljw3ljz3zjzyxwh4i5m31345zziz0jmlkh5kjj0l");
+			//conn = DriverManager.getConnection(url,"j1121jkzyw","ljw3ljz3zjzyxwh4i5m31345zziz0jmlkh5kjj0l");
 			//System.out.println("======="+conn);
 		}
 		catch(Exception e){
