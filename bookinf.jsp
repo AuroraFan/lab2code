@@ -24,6 +24,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body>
+  this is b3,b3,b3
     <h1>book information</h1>
     <h3>Title: </h3><h5>click title to update</h5>
     <%Book Bookinf = (Book)request.getAttribute("bookinf");
